@@ -22,6 +22,11 @@ $(function () {
         }
     });
 
+    // INTRO
+    setTimeout(function () {
+        scrollAble();
+    }, 2300);
+
     // HEADER MENU-BTN
     $('.menu__btn').on('click', function () {
         let menuOn = $('.menu__list').hasClass('-active');
@@ -77,7 +82,7 @@ $(function () {
         // -- DS
         else if (projectName == 'ds') {
             $('.popup__project-desc').html(
-                `기존 브랜딩페이지 리뉴얼 진행 (6/28 라이브 예정)<br />
+                `기존 브랜딩페이지 리뉴얼 진행 (8/17 라이브 예정)<br />
                 - 사전예약 영역 추가 및 미디어 컨텐츠 영역 리뉴얼 (미디어/아트워크/월페이퍼/사운드트랙)<br />
                 - 전체적인 디자인 변경`
             );

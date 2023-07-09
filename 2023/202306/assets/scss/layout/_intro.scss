@@ -95,10 +95,10 @@
     @include flex;
     @include position($p: fixed, $t: 0, $l: 0);
 
-    -webkit-animation: removeBg 0.4s 2s ease-out forwards;
-    animation: removeBg 0.4s 2s ease-out forwards;
+    -webkit-animation: removeBg 0.4s 2.2s ease-out forwards;
+    animation: removeBg 0.4s 2.2s ease-out forwards;
 
-    display: none;
+    // display: none;
 }
 
 // #demo-svg path {
@@ -158,5 +158,6 @@
 @keyframes removeBg {
     to {
         opacity: 0;
+        z-index: -100;
     }
 }

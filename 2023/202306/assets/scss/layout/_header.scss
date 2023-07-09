@@ -11,6 +11,13 @@
     @include mobile {
         padding: 0 4vw;
     }
+
+    &__item {
+        @include position($t: 50%, $r: 5%);
+        // @include mobile {
+        //     right: 5%;
+        // }
+    }
 }
 
 .menu {

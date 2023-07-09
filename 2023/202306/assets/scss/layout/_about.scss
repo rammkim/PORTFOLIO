@@ -25,10 +25,12 @@
         width: 45%;
         max-width: 350px;
         height: 400px;
-        background-color: $c-basic;
+        // background-color: $c-basic;
         border-radius: 10px;
+        background-image: url('#{$path-image}/etc/my-img.jpg');
+        @include background-cover;
         @include tablet {
-            width: 100%;
+            width: 80%;
             order: 0;
         }
     }

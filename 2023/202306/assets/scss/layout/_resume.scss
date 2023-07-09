@@ -82,7 +82,7 @@
         @include mobile {
             width: 100%;
             font-size: 15px;
-            margin-bottom: 2vh;
+            margin-bottom: 5vh;
         }
     }
     &__me {
@@ -119,7 +119,7 @@
         padding: 40px 0;
         border-top: 1px solid $c-title;
         @include mobile {
-            padding: 2vh 0;
+            padding: 5vh 0;
         }
     }
     &-name {
@@ -147,14 +147,14 @@
         }
     }
     &-list {
-        margin-top: 30px;
+        margin-top: 36px;
 
         ul {
             padding-left: 24px;
         }
 
         li {
-            font-size: 15px;
+            font-size: 14px;
             line-height: 1.5em;
             margin: 8px 0;
             list-style: disc;
@@ -162,8 +162,11 @@
                 font-size: 13px;
             }
         }
+        strong {
+            color: #ccd6f6;
+        }
         p {
-            margin: 24px 0;
+            margin: 24px 0 12px 0;
             @include mobile {
                 font-size: 14px;
                 margin: 2vh 0;
